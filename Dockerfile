@@ -2,7 +2,7 @@ FROM dweomer/hashibase as verify
 
 WORKDIR /tmp
 
-ARG NOMAD_VERSION=0.7.1
+ARG NOMAD_VERSION=0.8.1
 
 ADD https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_SHA256SUMS .
 ADD https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_SHA256SUMS.sig .
